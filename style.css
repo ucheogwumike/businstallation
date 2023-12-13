@@ -28,7 +28,7 @@ p{
 display: flex;
 flex-direction: column;
 justify-content:flex-end;
-background-image: url('../assets/images/pexels-vinícius-pimenta-311621.jpg');
+background-image: url('./pexels-vinícius-pimenta-311621.jpg');
  background-size:cover; 
 background-position:inherit;
 min-height: 100vh;
