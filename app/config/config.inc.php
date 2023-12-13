@@ -1,0 +1,12 @@
+<?php
+if (!defined("PJ_HOST")) define("PJ_HOST", "localhost");
+if (!defined("PJ_USER")) define("PJ_USER", "newuser");
+if (!defined("PJ_PASS")) define("PJ_PASS", "passabiairs001");
+if (!defined("PJ_DB")) define("PJ_DB", "traveldeals");
+if (!defined("PJ_PREFIX")) define("PJ_PREFIX", "");
+if (!defined("PJ_INSTALL_FOLDER")) define("PJ_INSTALL_FOLDER", "/busterminal/businstallation/");
+if (!defined("PJ_INSTALL_PATH")) define("PJ_INSTALL_PATH", "/var/www/html/busterminal/businstallation/");
+if (!defined("PJ_INSTALL_URL")) define("PJ_INSTALL_URL", "http://188.166.156.62/busterminal/businstallation/");
+if (!defined("PJ_SALT")) define("PJ_SALT", "KJFJSRSN");
+if (!defined("PJ_INSTALLATION")) define("PJ_INSTALLATION", "MTIwMzg5NTY3MDAxNDAyMzc0NDA4OTM0MzU4MTQ1Mjk0Mjk4NjA5NDA3ODI3NDYzNTM4NTY1Njg0MTYzNTYwODU2MTA4MTQ4ODU2MjUzMDQyNDg5NDc2NzM5Mjc2MDkwODU5MiAzNDI0MzY0OTYwNzk1MTQ3NTA5NDE2NTQ5OTc2NjMzMjM2ODQxNjc4NDc0NjI0NDEyMTM0OTk4ODc2Mjg0Mzg0MzI3MDc4MzE2NDc2OTMyNjUxNjQ1NjA4OTY2NTI1NDM4NyA5OTY4NjU4OTYwNzcwNTg3ODUyMDE3NTU2MTcyNDkwNDQ5NzEwMDkxNzg4OTg5NzAwNTU0MjA4MTM4Mjk2MzI0NjE2NDA2ODA0NzA3NzE3NTY4ODgxMDcyMzYwNjI4Mjc5MjkgMzEzMjg3NjM2ODk5NDYyMTI5NzM3NTUyMzMxMTI0NDY5MzI1NzMwMjQxNzc1NTEyNzAwNTQ4NDkwMDMyNTQ3NjM5NzEzMjM4MjAwODQyNzc5NDAzNDYwMzc1MTk0NDcxMTczIDU4ODY5MjU0MDY2MTI0ODY0NjM0NjI5ODU2MDE5OTQ0MjYyOTIxOTYzMjQwNDk0MzM2ODkzNTU3MDMzOTY1MzM5NzI1OTQwODgxMzY2MjUwMjIyMTIyNzAwMDYzMTQ2ODk0Ng==");
+?>

@@ -105,6 +105,48 @@ $booked_data = $STORE['booked_data'];
 								</div><!-- /.form-group -->
 								<?php
 							}
+
+
+						if (in_array($tpl['option_arr']['o_bf_include_kname'], array(2, 3)))
+							{
+								?>
+								<div class="form-group">
+<label class="col-lg-2 col-md-3 col-sm-4 col-xs-12 control-label">Next of kin name<span class="pjBsAsterisk">*</span> </label>
+<!-- /.col-lg-2 col-md-3 col-sm-4 col-xs-12 control-label -->
+	
+									<div class="col-lg-10 col-md-9 col-sm-8 col-xs-12">
+<input type="text" name="c_next_of_kin_name" class="form-control<?php echo ($tpl['option_arr']['o_bf_include_kname'] == 3) ? ' required' : NULL; ?>"
+ value="<?php echo isset($FORM['c_next_of_kin_name']) ? pjSanitize::clean($FORM['c_next_of_kin_name']) : null;?>" data-msg-required="<
+?php __('front_required_field', false, true);?>"/>
+	
+							<div class="help-block with-errors"><ul class="list-unstyled"></ul></div><!-- /.help-block with-errors -->
+									</div><!-- /.col-lg-10 col-md-9 col-sm-8 col-xs-12 -->
+								</div><!-- /.form-group -->
+								<?php
+							}
+
+			   if (in_array($tpl['option_arr']['o_bf_include_kphone'], array(2, 3)))
+                                                        {
+                                                                ?>
+                                                                <div class="form-group">
+<label class="col-lg-2 col-md-3 col-sm-4 col-xs-12 control-label">Next of kin phone<span class="pjBsAsterisk">*</span> </label>
+<!-- /.col-lg-2 col-md-3 col-sm-4 col-xs-12 control-label -->
+
+                                                                        <div class="col-lg-10 col-md-9 col-sm-8 col-xs-12">
+<input type="text" name="c_next_of_kin_name" class="form-control<?php echo ($tpl['option_arr']['o_bf_include_kphone'] == 3) ? ' required' : NULL; ?>"
+ value="<?php echo isset($FORM['c_next_of_kin_phone']) ? pjSanitize::clean($FORM['c_next_of_kin_phone']) : null;?>" data-msg-required="<
+?php __('front_required_field', false, true);?>"/>
+
+                                                        <div class="help-block with-errors"><ul class="list-unstyled"></ul></div><!-- /.help-block with-errors -->
+                                                                        </div><!-- /.col-lg-10 col-md-9 col-sm-8 col-xs-12 -->
+                                                                </div><!-- /.form-group -->
+                                                                <?php
+                                                        }
+	 
+
+
+			
+
 							if (in_array($tpl['option_arr']['o_bf_include_company'], array(2, 3)))
 							{
 								?>
